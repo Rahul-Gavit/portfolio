@@ -13,7 +13,7 @@ const submitHandler = async (formData: any) => {
     // "http://localhost:3000"
     const baseUrl = process.env.NUXT_PUBLIC_API_URL;
     const endpoint = isSignup.value ? "/api/auth/signup" : "/api/auth/login";
-    const response = await fetch(`${baseUrl}${endpoint}`, {
+    const response = await fetch(`${endpoint}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
