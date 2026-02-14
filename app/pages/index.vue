@@ -21,6 +21,12 @@
     <nav
       class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-zinc-950/80 border-b border-zinc-800/50"
     >
+      <NuxtLink
+        to="/admin"
+        class="px-4 py-2 text-sm font-medium text-blue-400 hover:text-blue-500 transition-colors"
+      >
+        Admin
+      </NuxtLink>
       <div class="max-w-7xl mx-auto px-6 py-4">
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-2">
